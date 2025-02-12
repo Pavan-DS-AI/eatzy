@@ -1,0 +1,26 @@
+[
+    {
+      "code": "PAYTM100",
+      "description": "Get ₹100 cashback on Paytm Wallet transactions above ₹500",
+      "minAmount": 500,
+      "discount": "₹100 OFF",
+      "additionalInfo": "Only for new Paytm Wallet users",
+      "details": [
+        "Cashback will be credited within 24 hours.",
+        "Offer valid only on first Paytm Wallet transaction.",
+        "Applicable for UPI payments only."
+      ]
+    },
+    {
+      "code": "UPI50",
+      "description": "Get ₹50 cashback on UPI transactions above ₹300",
+      "minAmount": 300,
+      "discount": "₹50 OFF",
+      "additionalInfo": "Valid for all UPI transactions",
+      "details": [
+        "Cashback will be available instantly.",
+        "Offer valid for all UPI-enabled apps."
+      ]
+    }
+  ]
+  

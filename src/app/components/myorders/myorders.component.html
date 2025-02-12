@@ -1,0 +1,25 @@
+<div class="orders-container">
+    <h2 align="center">My Orders</h2>
+  
+    <div *ngIf="ordersdata.length === 0" class="empty-orders">
+      <p>No orders yet. Start ordering your favorite food!</p>
+    </div>
+  
+    <div *ngFor="let order of ordersdata" class="order-card">
+      <div class="order-header">
+        <img [src]="order.restaurantImage" alt="Restaurant Image" class="restaurant-img" />
+        <div>
+          <h3>{{ order.restaurantName }}</h3>
+          <p class="order-total">Total Amount: ₹{{ order.totalAmount }}</p>
+        </div>
+      </div>
+  
+      <div class="order-items">
+        <div *ngFor="let item of order.cartItems | keyvalue" class="item">
+          <p class="item-name">{{ item.key }}</p>  
+          <p class="item-quantity">x{{ item.value }}</p>  
+        </div>
+      </div>
+    </div>
+  </div>
+  

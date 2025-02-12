@@ -1,0 +1,46 @@
+#btn{
+  height:400px;
+  width:200px;
+  background-color:#edf1f7;
+  padding:10px;
+ position: relative;
+ top:50px;
+ left:50px;
+}
+button{
+  border:none;
+  outline:none ;
+  
+} 
+button:hover{
+  color:black;
+  background-color:white;
+}
+#section{
+  position:relative;
+  left:400px;
+  top:-350px;
+}
+#help{
+  background-color: #37718e;
+  color:white;
+  text-align:left;
+  height:150px;
+  padding-left: 8px;
+  padding-top: 8px;
+}
+#content{
+  position: relative;
+  top: 400px;
+  left: -300px;
+}
+#error{
+  position: relative;
+  top: 400px;
+  left: -300px;
+}
+#hai{
+  position: relative;
+  top: 400px;
+  left: -300px; 
+}

@@ -1,0 +1,61 @@
+.orders-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .empty-orders {
+    text-align: center;
+    font-size: 16px;
+    color: gray;
+  }
+  
+  .order-card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .order-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .restaurant-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .order-total {
+    font-size: 14px;
+    color: #ff6600;
+    font-weight: bold;
+  }
+  
+  .order-items {
+    border-top: 1px solid #eee;
+    padding-top: 10px;
+  }
+  
+  .item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+  }
+  
+  .item-name {
+    font-weight: bold;
+  }
+  
+  .item-quantity,
+  .item-price {
+    color: gray;
+    font-size: 14px;
+  }
+  

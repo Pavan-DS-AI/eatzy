@@ -1,0 +1,23 @@
+<div class="restimage">
+  <img class='rest-head'src="assets/restaurant_header.jpeg" height="300px" width="1000px">
+</div>
+<div class="wholearea">
+  <div class="card-container">
+    <div class="row">
+      <div *ngFor="let res of restdetails" class="col-12 col-sm-6 col-md-4">
+        <!-- Card -->
+        <div class="card">
+          <!-- Card Header with Restaurant Image -->
+          <div class="card-header">
+            <img [src]="res.resimage" alt="Restaurant Image" class="card-img">
+          </div>
+          <!-- Card Body with Restaurant Name (Anchor Tag) -->
+          <div class="card-body">
+            <a routerLink="/user/viewmenu" class="card-title" (click)="openmenu(res.resid)">{{ res.resname }}</a>
+            <p>Rating: <span class="bg-success text-white px-2 py-1 rounded">{{ res.resrating }}</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

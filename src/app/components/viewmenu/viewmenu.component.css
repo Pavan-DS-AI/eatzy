@@ -1,0 +1,122 @@
+.menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .menu-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    width: 250px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    background: #fff;
+  }
+  
+  .menu-header {
+    text-align: center;
+  }
+  .card>img{
+    height: 200px;
+    width: 350px;
+  }
+  .card{
+    border: none;
+    border-radius: 15px;
+    height: 350px;
+    width: 350px;
+  }
+  .card:hover{
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.286); /* Box-shadow on hover */
+
+  }
+  .wholearea{
+    margin-left: 100px;
+    padding: 20px;
+  }
+  .menu-title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .menu-description {
+    color: #555;
+    font-size: 14px;
+  }
+  
+  .menu-price {
+    font-size: 16px;
+    font-weight: bold;
+    color: green;
+  }
+  
+  /* Add & Remove Buttons */
+  .menu-actions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .btn-add, .btn-remove {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .btn-remove {
+    background-color: #dc3545;
+  }
+  
+  .item-quantity {
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .view-cart-container {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    text-align: center;
+  }
+
+  .view-cart-btn {
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #ff4500;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+  .view-cart-btn:hover {
+    background-color: #e63900;
+  }
+
+
+  .cartbtn {
+    width: 80%;
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 1000;
+    text-align: center;
+    background-color: #28a745; /* Changed to green */
+
+  }
+  

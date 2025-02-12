@@ -1,0 +1,65 @@
+[
+    {
+      "code": "AXIS200",
+      "description": "Get flat ₹200 discount using Axis Bank Select Credit Cards",
+      "minAmount": 1000,
+      "discount": "Flat ₹200 OFF",
+      "additionalInfo": "Add ₹811 more to avail this offer",
+      "details": [
+      "Applicable twice per user during the offer period.",
+      "Valid on the net transaction amount of ₹150 or more using Paytm UPI or UPI Lite.",
+      "Cashback will be available as a scratch card within 24 hours."
+    ]
+    },
+    {
+      "code": "RBLCC100",
+      "description": "Get 10% discount using RBL Credit Cards",
+      "minAmount": 499,
+      "discount": "10% OFF",
+      "additionalInfo": "Add ₹310 more to avail this offer",
+      "maxDiscount": "Maximum discount up to ₹150",
+      "details": [
+      "Applicable twice per user during the offer period.",
+      "Valid on the net transaction amount of ₹150 or more using Paytm UPI or UPI Lite.",
+      "Cashback will be available as a scratch card within 24 hours."
+    ]
+    },
+    {
+      "code": "APAYFEST",
+      "description": "Get ₹100 cashback on using Amazon Pay",
+      "minAmount": 999,
+      "discount": "₹100 Cashback",
+      "additionalInfo": "Add ₹310 more to avail this offer",
+      "details": [
+      "Applicable twice per user during the offer period.",
+      "Valid on the net transaction amount of ₹150 or more using Paytm UPI or UPI Lite.",
+      "Cashback will be available as a scratch card within 24 hours."
+    ]
+    },
+    {
+      "code": "HDFC50",
+      "description": "Flat ₹50 discount on using HDFC Bank Debit Cards",
+      "minAmount": 499,
+      "discount": "Flat ₹50 OFF",
+      "additionalInfo": "Add ₹250 more to avail this offer",
+      "details": [
+      "Applicable twice per user during the offer period.",
+      "Valid on the net transaction amount of ₹150 or more using Paytm UPI or UPI Lite.",
+      "Cashback will be available as a scratch card within 24 hours."
+    ]
+    },
+    {
+      "code": "SBI150",
+      "description": "Get flat ₹150 discount using SBI Credit Cards",
+      "minAmount": 750,
+      "discount": "Flat ₹150 OFF",
+      "additionalInfo": "Add ₹500 more to avail this offer",
+      "details": [
+      "Applicable twice per user during the offer period.",
+      "Valid on the net transaction amount of ₹150 or more using Paytm UPI or UPI Lite.",
+      "Cashback will be available as a scratch card within 24 hours."
+    ]
+    }
+  ]
+  
+  

@@ -1,0 +1,132 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+
+    <a class="navbar-brand fw-bold" href="#"><img src="assets/logo.png" height="80" width="80"></a>
+  
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+
+            <li class="nav-item" routerLinkActive="active-link">
+                <a class="nav-link fs-5 pe-4" routerLink="/user/eatzy-corporate"> 
+                  <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwPAWeqTs-kKKAOf59hioqm926iaImU9TSpgH6jvUT_3CobxGfhwiielp6uPta37ifaxc&usqp=CAU' height="30" width="30">&nbsp;<sub>Eatzy Coorparate</sub>
+                </a>
+              </li>
+          <li class="nav-item" routerLinkActive="active-link">
+            <a class="nav-link fs-5 pe-4" routerLink="/user/search"> 
+                <img src='https://img.icons8.com/ios7/600/search.png' height="20" width="20">&nbsp;<sub>Search</sub>
+            </a>
+          </li>
+
+          <li class="nav-item" routerLinkActive="active-link">
+            <a class="nav-link fs-5 pe-4" routerLink="/user/offers"> 
+                <img src='https://cdn-icons-png.flaticon.com/512/2956/2956869.png' height="20" width="20">&nbsp;<sub>Offers</sub>
+            </a>
+          </li>
+
+          <li class="nav-item dropdown" routerLinkActive="active-link">
+            <a class="nav-link dropdown-toggle fs-5 pe-4" href="#" id="userDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              <img src='https://static.thenounproject.com/png/2191156-200.png' height="18" width="18">&nbsp;<sub>{{Username}}</sub>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
+              <li><a class="dropdown-item" routerLink="/user/myorders">My Orders</a></li>
+              <li><a class="dropdown-item" routerLink="/login">Logout</a></li>
+            </ul>
+          </li>
+
+
+        <li class="nav-item" routerLinkActive="active-link">
+            <a class="nav-link fs-5 pe-4" routerLink="/user/cart">
+                <img src='https://png.pngtree.com/png-vector/20230412/ourmid/pngtree-food-cart-line-icon-vector-png-image_6701298.png' height="26" width="26">&nbsp;<sub>Cart</sub>
+            </a>
+            </li>
+
+          <li class="nav-item" routerLinkActive="active-link">
+            <a class="nav-link fs-5 pe-4" routerLink="/help"> 
+                <img src='https://png.pngtree.com/png-clipart/20190516/original/pngtree-question-mark-vector-icon-png-image_4236972.jpg' height="20" width="20">&nbsp;<sub>Help</sub>
+            </a>
+          </li>
+  
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div> 
+    <router-outlet></router-outlet>
+  </div>
+
+  <div class="footer">
+    <div class="footer-container">
+      <div class="footer-logo">
+        <img src="/assets/logo.png" alt="Logo">
+        <p>©️ 2025 Eatzy Limited</p>
+      </div>
+  
+      <div class="footer-columns">
+        <div class="footer-column">
+          <h4 class="bold">Company</h4>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Eatzy  Corporate</a></li>
+            <li><a href="#">Eatzy One</a></li>
+            <li><a href="#">Eatzy Instamart</a></li>
+            <li><a href="#">Eatzy Dineout</a></li>
+            <li><a href="#">Eatzy Genie</a></li>
+          </ul>
+        </div>
+  
+        <div class="footer-column">
+          <h4 class="bold">Contact Us</h4>
+          <ul>
+            <li><a href="#">Help & Support</a></li>
+            <li><a href="#">Partner with Us</a></li>
+          </ul>
+        </div>
+  
+        <div class="footer-column">
+          <h4 class="bold">Legal</h4>
+          <ul>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Cookie Policy</a></li>
+            <li><a href="#">Investor Relations</a></li>
+          </ul>
+        </div>
+  
+        <div class="footer-column">
+          <h4 class="bold">Available In</h4>
+          <ul>
+            <li><a href="#">Hyderabad</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4 class="bold">Life at Eatzy</h4>
+          <ul>
+            <li><a href="#">Explore with Eatzy</a></li>
+            <li><a href="#">Eatzy News</a></li>
+            <li><a href="#">Snakables</a></li>
+          </ul>
+        </div>
+      </div>
+  
+    </div>
+  </div>
+  <!-- <div>
+      <h3>For better experience, download the Swiggy app now</h3>
+      <img src="https://www.figma.com/community/resource/46e0b9fc-c8a4-476f-ac6e-e4a815e880fc/thumbnail" height="400px" width="400px">
+  </div> -->
+
+
+
+
+
+
+
+
+  
+  

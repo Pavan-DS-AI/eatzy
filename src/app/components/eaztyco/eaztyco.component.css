@@ -1,0 +1,94 @@
+.container-fluid {
+    /* flex-direction: column; */
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically (if needed) */
+    text-align: center; /* Center text */
+}
+video {
+    width: 90vw; /* 90% of the screen width */
+    max-width: 900px; 
+    height: auto; /* Keep aspect ratio */
+    border-radius: 20px; /* Rounded corners */
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3); /* Optional: shadow for better look */
+}
+
+.borderfit{
+    overflow-x: hidden;
+}
+p{
+    display: flex;
+    flex-direction: row;
+    width: 99%;
+}
+#image{
+    
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+}
+
+img{
+    height: 300px;
+    width: 400px;
+}
+
+
+img:hover{
+    
+    transform: scale(1.1);
+    transition: transform 1s ease-in-out;
+    border-radius: 10px;
+    
+}
+.img2{
+    width:300px;
+    height: auto;
+}
+.state-box{
+    margin-left:20px;
+    padding: 50px;
+
+}
+.map{
+    width:500px;
+    height:300px;
+    border-radius: 40px;
+    position: absolute;
+    left: 780px;
+    top:3250px;
+}
+.wholearea{
+    overflow-x: hidden;
+}
+.container.numbersarea {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    text-align: center; /* Center text inside elements */
+    height: 100vh; /* Ensure full viewport height */
+}
+
+.d-flex {
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    flex-wrap: wrap; /* Allow wrapping if needed */
+    gap: 20px; /* Space between stat-boxes */
+}
+
+.stat-box {
+    background: #f8f9fa; /* Light background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    min-width: 180px; /* Adjust for responsiveness */
+}
+
+.stat-number {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.stat-text {
+    font-size: 16px;
+}

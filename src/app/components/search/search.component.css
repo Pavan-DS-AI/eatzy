@@ -1,0 +1,83 @@
+/* Ensure the body takes full viewport height */
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Main wrapper to center the search bar */
+.search-wrapper {
+    position: absolute;
+    top:120px;
+
+    left:530px;
+
+    flex: 1; /* Takes available space */
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+}
+
+/* Search bar container */
+.dropdown-container {
+    width: 400px;
+    position: relative;
+}
+
+/* Search input box */
+.search-input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    font-size: 16px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Dropdown list styling */
+.dropdown-list {
+    position: absolute;
+    width: 100%;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+    max-height: 150px;
+    overflow-y: auto;
+    list-style: none;
+    padding: 0;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Dropdown list items */
+.dropdown-list li {
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* Hover effect */
+.dropdown-list li:hover {
+    background: #f0f0f0;
+}
+
+.totalcarousels{
+    position: absolute;
+    top: 285px;
+    text-align: center;
+}
+.totalcarousels h3{
+    color :#FF4500;
+}
+.carousel-buttons button{
+    margin-top: -450px;
+
+}
+.leftbtn{
+    margin-left: 1050px;
+
+}
+/* .imgcontent{
+    position: relative;
+    top:500px;
+} */

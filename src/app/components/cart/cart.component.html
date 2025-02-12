@@ -1,0 +1,28 @@
+<div class="cart-container">
+    <div class="restaurant-card">
+      <img [src]="cartData.restaurantImage" alt="Restaurant Image" class="restaurant-img">
+      <h2>{{ cartData.restaurantName }}</h2>
+    </div>
+  
+    <div class="cart-items">
+      <div *ngFor="let item of getCartItems()" class="cart-item">
+        <div class="item-details">
+          <h3>{{ item.name }}</h3>
+          <!-- <p>{{ item.description }}</p> -->
+        </div>
+        <div class="item-quantity">
+          <p>Qty: {{ item.quantity }}</p>
+        </div>
+        <div class="item-price">
+          <p>₹{{ item.price * item.quantity }}</p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="cart-total">
+      <h3>Total Amount: ₹{{ cartData.totalAmount }}</h3>
+    </div>
+  
+    <button class="checkout-btn" (click)="checkout()">Proceed to Checkout</button>
+  </div>
+  

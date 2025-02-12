@@ -1,0 +1,125 @@
+/* Background Image */
+.bgimage > img {
+  position: absolute;
+  top: 35%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+  opacity: 0.2;
+  z-index: -1; /* Ensure background stays behind */
+}
+
+/* Remove Border from Cards */
+.lineremove {
+  border: none;
+}
+
+/* General Card Styling */
+.card {
+  background-color: white !important;
+  border: none;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  position: absolute; /* Allows precise positioning */
+}
+
+/* Card Header, Body, and Footer */
+.card-header,
+.card-body,
+.card-footer {
+  background-color: white !important;
+}
+
+/* Centering Card Content */
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: 10px;
+}
+
+/* Logo Image Styling */
+.imglogocard {
+  display: block;
+  margin: 0 auto 10px auto;
+}
+
+/* Text inside card */
+.card-body p {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+/* First Card (Top-Left) */
+.first-card {
+  top: 20px;
+  left: 70px;
+  width: 330px;
+
+}
+
+/* Second Card (Center - Login Form) */
+.second-card {
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 580px;
+  padding: 20px;
+}
+
+.btn{
+  color: white;
+  background-color: #ff4400df;
+}
+
+h3{
+  color: #ff4400df
+}
+
+input{
+  width: 250px;
+}
+
+/* Login Form */
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.login-form input {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-form button {
+  width: 85%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.login-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Third Card (Bottom-Right) */
+.third-card {
+  bottom: 23px;
+  right: 80px;
+  width: 330px;
+}
+
+.lineremove{
+  border: none;
+}

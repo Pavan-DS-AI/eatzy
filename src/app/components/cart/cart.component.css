@@ -1,0 +1,85 @@
+.cart-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .restaurant-card {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .restaurant-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .restaurant-card h2 {
+    font-size: 1.8em;
+    margin: 0;
+  }
+  
+  .cart-items {
+    margin-bottom: 30px;
+  }
+  
+  .cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px; /* Space between items */
+  }
+  
+  .item-details,
+  .item-quantity,
+  .item-price {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  
+  .item-details h3 {
+    font-size: 1.2em;
+    margin: 0;
+  }
+  
+  .item-quantity p,
+  .item-price p {
+    margin: 5px 0;
+    font-size: 1.2em;
+  }
+  
+  .cart-total {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .cart-total h3 {
+    font-size: 1.5em;
+    margin: 0;
+  }
+  
+  .checkout-btn {
+    background-color: #ff6000;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  .checkout-btn:hover {
+    background-color: #e55a00;
+  }
+  

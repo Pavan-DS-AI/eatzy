@@ -1,0 +1,169 @@
+/* .coupon-container {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    flex-wrap: wrap;
+  }
+  
+  .coupon-card {
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 49%;
+  }
+  
+  .discount-label {
+    background-color:red;
+    color: white;
+    padding: 15px;
+    font-weight: bold;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    font-size: 14px;
+  }
+  
+  .coupon-details {
+    padding: 15px;
+    flex-grow: 1;
+  }
+  
+  .coupon-details h3 {
+    margin: 0;
+    color: #333;
+    font-size: 18px;
+  }
+  
+  .additional-info {
+    color: #757575;
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  
+  .apply-btn {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 10px;
+  }
+  
+  .apply-btn:hover {
+    background-color: #388e3c;
+  }
+
+  .more-btn{
+    background-color: #4c91af;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+
+  .more-btn:hover {
+    background-color: #4487c9;
+  }
+
+  .payment-offer-container {
+    margin-top: 30px;
+    display: flex;
+    gap: 15px;
+    flex-direction: row;
+  }
+  
+  .payment-offer-card {
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 49%;
+  } */
+  
+  /* .payment-offer-card .discount-label {
+    font-size: 16px;
+    font-weight: bold;
+    color: #3c763d;
+  } */
+   
+  /* .discount-label1{
+    padding: 15px;
+    font-weight: bold;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    font-size: 14px;
+  }
+
+  
+  .payment-offer-card .offer-details {
+    margin-top: 10px;
+  }
+  
+  .payment-offer-card .apply-btn {
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  /* .couponsarea{
+    position: relative;
+    left:500px;
+  } */
+  
+  .payment-offer-card .more-btn {
+    background-color: transparent;
+    color: #007bff;
+    border: none;
+    cursor: pointer;
+  }
+  .payment-offer-container {
+    margin-top: 30px;
+    margin-left: 10px;
+  }
+  
+  .payment-offer-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    margin: 10px 0;
+  }
+  
+  .payment-offer-card .discount-label {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+  }
+  .offer-details{
+    padding: 10px;
+  }
+  
+  .payment-offer-card .offer-details {
+    margin-top: 10px;
+  }
+  
+  .payment-offer-card .apply-btn {
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .payment-offer-card .more-btn {
+    background-color: transparent;
+    color: #007bff;
+    border: none;
+    cursor: pointer;
+  } 
+
+   
